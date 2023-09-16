@@ -179,7 +179,6 @@ function CountryVisualizator() {
                               {getBordersCountries(country.borders).map((c, i) => (
                                 <Link
                                   to={"/country/" + c}
-                                  target="_blank"
                                   key={i}
 
                                 >{c}</Link>
