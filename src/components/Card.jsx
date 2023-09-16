@@ -14,7 +14,7 @@ function Card(props) {
 
             <div className="card_content">
                 <header>
-                    <Link to={`/country_dictionary_app/country/${props.name}`}><h2>{props.name}</h2></Link>
+                    <Link to={`country/${props.name}`}><h2>{props.name}</h2></Link>
                 </header>
                 <span className="country_data">
                     <h4>Population: </h4> {props.population}
