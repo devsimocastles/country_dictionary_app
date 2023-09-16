@@ -23,6 +23,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/country/:country_name" element={<CountryVisualizator />} />
+                <Route path="*" element={<Home />} />
             </Routes>
         </Router>
     </div>

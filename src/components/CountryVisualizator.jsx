@@ -102,7 +102,7 @@ function CountryVisualizator() {
         // checks if the content isn't loaded yet
         loading ?
 
-          (<h1>Loading...</h1>)
+          (<h2 className="loading">Loading...</h2>)
 
           // if the content is loaded already, checks if is a "special country"
           : specialCountry === true ?
