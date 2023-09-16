@@ -21,9 +21,8 @@ function App() {
     <div className="App">
         <Router>
             <Routes>
-                <Route path="/country_dictionary_app/" element={<Home />} />
-                <Route path="/country_dictionary_app/country/:country_name" element={<CountryVisualizator />} />
-                <Route path="/country_dictionary_app/*" element={<Home />} />
+                <Route path="/" element={<Home />} />
+                <Route path="country/:country_name" element={<CountryVisualizator />} />
             </Routes>
         </Router>
     </div>
