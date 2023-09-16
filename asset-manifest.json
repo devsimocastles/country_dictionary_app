@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/country_dictionary_app/static/css/main.b2cffb71.css",
+    "main.js": "/country_dictionary_app/static/js/main.6cc6621e.js",
+    "index.html": "/country_dictionary_app/index.html",
+    "main.b2cffb71.css.map": "/country_dictionary_app/static/css/main.b2cffb71.css.map",
+    "main.6cc6621e.js.map": "/country_dictionary_app/static/js/main.6cc6621e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2cffb71.css",
+    "static/js/main.6cc6621e.js"
+  ]
+}
