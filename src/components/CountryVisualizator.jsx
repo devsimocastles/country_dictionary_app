@@ -178,7 +178,7 @@ function CountryVisualizator() {
                             <div className="links">
                               {getBordersCountries(country.borders).map((c, i) => (
                                 <Link
-                                  to={"/country/" + c}
+                                  to={"/country_dictionary_app/country/" + c}
                                   key={i}
 
                                 >{c}</Link>
