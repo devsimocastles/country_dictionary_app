@@ -21,7 +21,9 @@ function App() {
     <div className="App">
         <Router>
             <Routes>
-                <Route path="/country" element={<Home />} />
+                            <Route path="/" element={<Home />} />
+                <Route path="/country/:country_name" element={<CountryVisualizator />} />
+                <Route path="*" element={<Home />} />
             </Routes>
         </Router>
     </div>
